@@ -1,0 +1,16 @@
+{
+  "latest_version": "1.7.0",
+  "release_date": "2024-08-15",
+  "download_url": "https://hoctap-9a3.glitch.me/downloads/hoc-tap-tu-luan-pro-v1.7.0.zip",
+  "notes": [
+    "- **Mới:** Thêm chế độ học 'Điền Từ Khóa' (Cloze Deletion).",
+    "- **Mới:** Lưu và xem lại lịch sử các lần thực hành viết.",
+    "- **Cải tiến:** So sánh đáp án hiển thị chi tiết khác biệt inline (thêm/xóa).",
+    "- **Cải tiến:** Tối ưu hóa việc tải dữ liệu và kiểm tra phiên bản.",
+    "- **Sửa lỗi:** Khắc phục lỗi không hiển thị dàn ý/checklist trong một số trường hợp.",
+    "- **Sửa lỗi:** Cải thiện xử lý lỗi khi ghi âm và phát lại."
+  ],
+  "checksums": {
+    "sha256": "abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890"
+  }
+}
