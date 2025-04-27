@@ -1,14 +1,18 @@
 {
-  "latest_version": "6.1.0",
+  "latest_version": "6.1.3",
   "release_date": "2025-04-27", 
-  "download_url": "https://www.dropbox.com/scl/fi/pefesgu98rrswleiio3gw/H-c-t-lu-n-PRO.zip?rlkey=pg1hs9y0lllif39kuu1edv9ij&st=xfu55dm9&dl=1",
+  "download_url": "https://www.dropbox.com/scl/fi/swsuuvcmge18x3418muzu/HocTuLuanV6.1.3.zip?rlkey=0dwd6jk0eu9y4c1jlmvn31j7b&st=5oiqk8s7&dl=1",
   "notes": [
-    "- **Mới:** Thêm chế độ học 'Điền Từ Khóa' (Cloze Deletion).",
-    "- **Mới:** Lưu và xem lại lịch sử các lần thực hành viết.",
-    "- **Cải tiến:** So sánh đáp án hiển thị chi tiết khác biệt inline (thêm/xóa).",
-    "- **Cải tiến:** Tối ưu hóa việc tải dữ liệu và kiểm tra phiên bản.",
-    "- **Sửa lỗi:** Khắc phục lỗi không hiển thị dàn ý/checklist trong một số trường hợp.",
-    "- **Sửa lỗi:** Cải thiện xử lý lỗi khi ghi âm và phát lại."
+    "- **Cải tiến:** Tối ưu hóa luồng kiểm tra và áp dụng theme, tránh xung đột.",
+    "- **Cải tiến:** Tăng độ tin cậy khi lấy đường dẫn Desktop để tạo shortcut trên Windows (ưu tiên Registry).",
+    "- **Cải tiến:** Hiển thị thông báo lỗi chi tiết hơn khi tạo shortcut thất bại.",
+    "- **Sửa lỗi:** Khắc phục lỗi `AttributeError: 'MainWindow' object has no attribute 'media_recorder'` xảy ra khi khởi động do sai thứ tự gọi hàm.",
+    "- **Sửa lỗi:** Khắc phục lỗi `AttributeError: 'builtin_function_or_method' object has no attribute 'connect'` liên quan đến `state_changed` signal trong `ChecklistItemWidget`.",
+    "- **Sửa lỗi:** Khắc phục lỗi `AttributeError: 'NoneType' object has no attribute 'strip'` trong hàm `parse_answer_into_chunks` khi gặp marker ở cuối văn bản.",
+    "- **Sửa lỗi:** Khắc phục lỗi `AttributeError: Property '<unknown>.Targetpath' can not be set` trong `create_desktop_shortcut` (sai tên thuộc tính).",
+    "- **Sửa lỗi:** Khắc phục lỗi hiển thị đường dẫn shortcut chứa ký tự Unicode không đúng trên một số hệ thống Windows.",
+    "- **Sửa lỗi:** Đảm bảo các `objectName` cần thiết được đặt cho các widget liên quan đến Tags để style CSS hoạt động đúng.",
+    "- **Sửa lỗi:** Chức năng xuất flashcard giờ đây sẽ loại bỏ các marker `[Mở bài]`, `[Luận điểm X]`... khỏi nội dung xuất ra."
   ],
   "checksums": {
     "sha256": ""
