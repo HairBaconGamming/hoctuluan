@@ -5,6 +5,6 @@
   "notes": [
     "**Flashcards:** Thêm khả năng đính kèm ảnh cho **mặt trước** (bên cạnh mặt sau đã có). Giao diện thêm/sửa flashcard được cập nhật.",
     "**Lịch ôn tập:** Thêm danh sách \"Lịch Ôn Tập Tương Lai\" vào thanh bên trái (sidebar), hiển thị các mục được lên lịch ôn tập theo ngày gần nhất.",
-    "**Sửa lỗi:** Chức năng \"Reset Tiến độ Ôn tập\" (chuột phải vào câu hỏi/flashcard) giờ sẽ cập nhật lại chính xác danh sách \"Lịch Ôn Tập Tương Lai\", loại bỏ mục đã reset khỏi danh sách.",
+    "**Sửa lỗi:** Chức năng \"Reset Tiến độ Ôn tập\" (chuột phải vào câu hỏi/flashcard) giờ sẽ cập nhật lại chính xác danh sách Lịch Ôn Tập Tương Lai, loại bỏ mục đã reset khỏi danh sách.",
   ]
 }
